@@ -1,3 +1,27 @@
+.has-bg-img{
+  background: url(../img/Aesthetic.gif) no-repeat center center fixed;
+  background-size: cover;
+}
+
+h1{
+  font-family: 'Nothing You Could Do', cursive;
+}
+
+.navbar-nav{
+  font-family: 'Raleway', sans-serif;
+  padding-left: 70px;
+  font-size: 19px
+}
+
+.bg-prettypink{
+  background-color: #FFFFFF
+}
+
+#MSLogoStyle{
+  width:70px;
+  height: auto;
+}
+
 #BoxVideo{
   height: 300px;
 }
@@ -14,3 +38,7 @@
 .navbar-nav{
   padding-left: 400px;
 }
+
+font-family: 'Nothing You Could Do', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Zen Kaku Gothic Antique', sans-serif;
