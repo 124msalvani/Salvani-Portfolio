@@ -3,8 +3,17 @@
   background-size: cover;
 }
 
+.has-bg-img-2{
+  background: url(..img/boxvideo.gif) no-repeat center center fixed;
+  background-size: cover;
+}
+
 h1{
   font-family: 'Nothing You Could Do', cursive;
+}
+
+h2{
+  font-family: 'Raleway', sans-serif;
 }
 
 .navbar-nav{
