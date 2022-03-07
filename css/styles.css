@@ -8,6 +8,12 @@
   background-size: cover;
 }
 
+.has-bg-img-proj1{
+  background: url(Web Design Projects At Home/img/TCA2img.png) no-repeat center center fixed;
+  background-size: cover;
+}
+
+
 h1{
   font-family: 'Nothing You Could Do', cursive;
 }
@@ -16,14 +22,57 @@ h2{
   font-family: 'Raleway', sans-serif;
 }
 
+h3{
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  font-size: 20px;
+}
+
 .navbar-nav{
   font-family: 'Raleway', sans-serif;
-  padding-left: 70px;
+  padding-left: 400px;
   font-size: 19px
 }
 
+.navbar{
+  position: fixed;
+  top; 0;
+  width: 100%;
+}
+
+.OtherInterests, .OtherInterests:link, ab, ab:link{
+  color: #FFFFFF;
+  background-color: #a083ca;
+
+}
+
+.OtherInterests:visited, ab:visited{
+  color:#FFFFFF;
+  background-color: #C59849;
+}
+
+.OtherInterests:hover, ab:hover{
+  background-color: #8981c5;
+  color:white;
+}
+
+.btn-yippee, .btn-yippee:link{
+  color: white;
+  background-color: #D74766;
+}
+
+.btn-yippee:hover{
+  color: white;
+  background-color: #c31f3b;
+}
+
+
+
 .bg-prettypink{
-  background-color: #FFFFFF
+  background-color: rgba(255,255,255,0.94);
+}
+
+.fancypink{
+  color: #B7C3F3;
 }
 
 #MSLogoStyle{
@@ -32,21 +81,15 @@ h2{
 }
 
 #BoxVideo{
-  height: 300px;
+  height: 500px;
 }
 
-#AboutMeBox{
-  height: 400px;
-}
 
 #ProjectsBox{
   height:500px;
 }
 
 
-.navbar-nav{
-  padding-left: 400px;
-}
 
 font-family: 'Nothing You Could Do', cursive;
 font-family: 'Raleway', sans-serif;

@@ -16,48 +16,34 @@
 </head>
 <body>
   <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light-green">
+    <nav class="navbar navbar-expand-lg navbar-light bg-prettypink">
       <div class="container-fluid">
-        <div class="row">
-          <div class="col-10 col-lg-4" href="logo.png">
-            <img id="logo" src="img/logo.png" alt="Logo"/>
-          </div>
-
-          <div class="col-5 col-lg-1 justify-content-end">
-            <button
-              class="navbar-toggler bg-navbar"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarTogglerDemo01"
-              aria-controls="navbarTogglerDemo01"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          </div>
-
-          <div
-            class="col-6 col-lg-4 justify-content-end collapse navbar-collapse"
-            id="navbarTogglerDemo01"
-          >
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html#Education">Education</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#disclaimer">Disclaimer</a>
-              </li>
-            </ul>
-          </div>
+        <a class="navbar-brand" href="#"><img id="MSLogoStyle"src="img/mslogo1.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav text-end text-center-lg">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#BasicAbout">About Me</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Even More About Me
+              </a>
+              <ul class="dropdown-menu text-end text-start-lg" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="about.html#Education">Education</a></li>
+                <li><a class="dropdown-item" href="about.html#Work">Work</a></li>
+                <li><a class="dropdown-item" href="about.html#Interests">Interests</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#Contact">Contact</a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
