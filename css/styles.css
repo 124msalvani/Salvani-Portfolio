@@ -8,9 +8,10 @@
   background-size: cover;
 }
 
-.has-bg-img-proj1{
-  background: url(Web Design Projects At Home/img/TCA2img.png) no-repeat center center fixed;
+.has-bg-img-3{
+  background: url(..img/TCA2img.png) no-repeat center center fixed;
   background-size: cover;
+  height: auto;
 }
 
 
