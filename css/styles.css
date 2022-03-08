@@ -4,14 +4,26 @@
 }
 
 .has-bg-img-2{
-  background: url(..img/boxvideo.gif) no-repeat center center fixed;
+  background: url(../img/boxvideo.gif) no-repeat center center fixed;
   background-size: cover;
 }
 
 .has-bg-img-3{
-  background: url(..img/TCA2img.png) no-repeat center center fixed;
+  background: url(../img/TCAtest.png) no-repeat center center fixed;
   background-size: cover;
-  height: auto;
+  height: 150px;
+}
+
+.has-bg-img-4{
+  background: url(../img/bootstrappractical.png) no-repeat center center fixed;
+  background-size: cover;
+  height: 150px;
+}
+
+.has-bg-img-5{
+  background: url(../img/TCA2img.png) no-repeat center center fixed;
+  background-size: cover;
+  height: 150px;
 }
 
 
