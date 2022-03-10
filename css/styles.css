@@ -12,6 +12,8 @@
   background: url(../img/TCAtest.png) no-repeat center center fixed;
   background-size: cover;
   height: 150px;
+  border-radius: 6px;
+  border-width: thick;
 }
 
 .has-bg-img-4{
@@ -22,6 +24,12 @@
 
 .has-bg-img-5{
   background: url(../img/TCA2img.png) no-repeat center center fixed;
+  background-size: cover;
+  height: 150px;
+}
+
+.has-bg-img-6{
+  background: url(../img/boxvideo2.gif) center center fixed;
   background-size: cover;
   height: 150px;
 }
