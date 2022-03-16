@@ -48,6 +48,11 @@ h3{
   font-size: 20px;
 }
 
+h4{
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  font-size: 15px;
+}
+
 .navbar-nav{
   font-family: 'Raleway', sans-serif;
   padding-left: 400px;
