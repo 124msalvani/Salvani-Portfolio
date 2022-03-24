@@ -12,8 +12,6 @@
   background: url(../img/TCAtest.png) no-repeat center center fixed;
   background-size: cover;
   height: 150px;
-  border-radius: 6px;
-  border-width: thick;
 }
 
 .has-bg-img-4{
@@ -34,6 +32,9 @@
   height: 150px;
 }
 
+.verytall{
+  height:300px;
+}
 
 h1{
   font-family: 'Nothing You Could Do', cursive;
