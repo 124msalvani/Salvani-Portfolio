@@ -1,5 +1,5 @@
 .has-bg-img{
-  background: url(../img/Aesthetic.gif) no-repeat center center fixed;
+  background: url(../img/Aesthetic.gif) no-repeat fixed;
   background-size: cover;
 }
 
@@ -115,6 +115,17 @@ h4{
   height:500px;
 }
 
+.imagetexttime{
+  position: relative;
+  text-align: center;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 
 font-family: 'Nothing You Could Do', cursive;
