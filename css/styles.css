@@ -8,13 +8,35 @@
   
 } 
 
-.container{
+.bg-gradient2{
+  background: linear-gradient(-45deg, #614385, #516395, #C33764, #1D2671);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.border-round{
+  border-radius: 16px;
+}
+
+.row{
   background-color: white;
 }
 
 .bgblack{
   background-color: #444455;
-  color: white;
 }
 
 .has-bg-img{
