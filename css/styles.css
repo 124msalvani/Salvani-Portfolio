@@ -115,28 +115,7 @@ h4{
 .OtherInterests, .OtherInterests:link, ab, ab:link{
   color: #FFFFFF;
   background-color: #a083ca;
-border-color: purple;
-}
-
-.OtherInterests:visited, ab:visited{
-  color:#FFFFFF;
-  background-color: #7b49c5;
-}
-
-.OtherInterests:hover, ab:hover{
-  background-color: #767ddb;
-  color:white;
-}
-
-.btn-yippee, .btn-yippee:link{
-  color: white;
-  background-color: #D74766;
-  border-color: #bf4559;
-}
-
-.btn-yippee:hover{
-  color: white;
-  background-color: #c31f3b;
+  border-color: purple;
 }
 
 .OtherInterests:visited, ab:visited{
@@ -144,7 +123,44 @@ border-color: purple;
   background-color: #ae6fbe;
 }
 
+.OtherInterests:hover, ab:hover{
+  background-color: #4d0783;
+  border-color: rgb(9, 0, 17);
+  color:white;
+}
 
+.btn-yippee, .btn-yippee:link ab, ab:link{
+  color: white;
+  background-color: #D74766;
+  border-color: #bf4559;
+}
+
+
+.btn-yippee:visited, ab:visited{
+  color: white;
+  background-color: #e88999;
+}
+
+.btn-yippee:hover, ab:hover{
+  color: white;
+  background-color: #c31f3b;
+}
+
+.BtnAboutMe, .BtnAboutMe:link, ab, ab:link{
+  color: #FFFFFF;
+  background-color: #403dd6;
+border-color: #101f8e;
+}
+
+.BtnAboutMe:visited, ab:visited{
+  color:#FFFFFF;
+  background-color: #4979c5;
+}
+
+.BtnAboutMe:hover, ab:hover{
+  background-color: #0d4177;
+  color:white;
+}
 
 .bg-prettypink{
   background-color: rgba(255,255,255,0.94);
@@ -190,21 +206,6 @@ border-color: purple;
   filter: drop-shadow(16px 16px 10px black);
 }
 
-.BtnAboutMe, .BtnAboutMe:link, ab, ab:link{
-  color: #FFFFFF;
-  background-color: #403dd6;
-border-color: #101f8e;
-}
-
-.BtnAboutMe:visited, ab:visited{
-  color:#FFFFFF;
-  background-color: #4979c5;
-}
-
-.BtnAboutMe:hover, ab:hover{
-  background-color: #0d4177;
-  color:white;
-}
 
 
 
