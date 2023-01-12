@@ -37,6 +37,10 @@
 
 }
 
+.bordergrey{
+  border: #848484 solid 1px;
+}
+
 .row{
   background-color: white;
 }
