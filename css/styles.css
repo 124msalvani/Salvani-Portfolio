@@ -8,6 +8,10 @@
   
 } 
 
+.heightbig{
+  height: 84%;
+}
+
 .bg-gradient2{
   background: linear-gradient(-45deg, #614385, #516395, #C33764, #1D2671);
   background-size: 400% 400%;
@@ -37,12 +41,20 @@
 
 }
 
+.border2{
+  border: #680856 solid 2px;
+}
+
 .bordergrey{
   border: #848484 solid 1px;
 }
 
 .row{
   background-color: white;
+}
+
+.nobg{
+  background-color: coral;
 }
 
 .bgblack{
@@ -84,15 +96,17 @@
 }
 
 .verytall{
-  height:300px;
+  height:100px;
 }
 
 h1{
   font-family: 'Nothing You Could Do', cursive;
+  font-size: 100px;
 }
 
 h2{
   font-family: 'Raleway', sans-serif;
+  font-size: 80px;
 }
 
 h3{
@@ -104,6 +118,7 @@ h4{
   font-family: 'Zen Kaku Gothic Antique', sans-serif;
   font-size: 15px;
 }
+
 
 .navbar-nav{
   font-family: 'Raleway', sans-serif;
@@ -153,17 +168,17 @@ h4{
 
 .BtnAboutMe, .BtnAboutMe:link, ab, ab:link{
   color: #FFFFFF;
-  background-color: #403dd6;
-border-color: #101f8e;
+  background-color: #8e8ced;
+border-color: #40498f;
 }
 
 .BtnAboutMe:visited, ab:visited{
   color:#FFFFFF;
-  background-color: #4979c5;
+  background-color: #c2bae9;
 }
 
 .BtnAboutMe:hover, ab:hover{
-  background-color: #0d4177;
+  background-color: #4636a5;
   color:white;
 }
 
@@ -173,7 +188,7 @@ border-color: #101f8e;
 /*aaaa*/
 .fancypink{
   color: #B7C3F3;
-  font-size: 80px;
+  font-size: 90px;
   filter: drop-shadow(1px 1px 1px black);
 }
 
