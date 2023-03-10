@@ -81,6 +81,9 @@ span:nth-child(3) {
 span:nth-child(4) {
   animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
+span:nth-child(5) {
+  animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
 
 
 @keyframes fade-in {
@@ -95,20 +98,24 @@ span:nth-child(4) {
 .nobg{
   background-color: transparent;
   color: white;
+  padding-top: 20%;
+  
 }
 
-.bgblack{
-  background-color: #444455;
+.bgpink{
+  background-color: #8c87bb;
 }
 
 .has-bg-img{
   background: url(../img/Aesthetic.gif) no-repeat fixed;
   background-size: cover;
+  background-clip: padding-box;
 }
 
 .has-bg-img-2{
   background: url(../img/boxvideo.gif) no-repeat center center fixed;
   background-size: cover;
+  background-clip: padding-box;
 }
 
 .has-bg-img-3{
@@ -130,7 +137,7 @@ span:nth-child(4) {
 }
 
 .has-bg-img-6{
-  background: url(../img/boxvideo2.gif) center center fixed;
+  background: url(../img/periwinkle.jpg) center center fixed;
   background-size: cover;
   height: 150px;
 }
@@ -141,7 +148,7 @@ span:nth-child(4) {
 
 h1{
   font-family: 'Nothing You Could Do', cursive;
-  font-size: 100px;
+  font-size: 60px;
 }
 
 h2{
@@ -270,6 +277,20 @@ border-color: #40498f;
 }
 
 
+@media only screen and (min-width: 992px) {
+  h1{
+    font-size: 100px;
+  }
+  .expandh3 {
+    font-size: 70px;
+  }
+  .p-expand {
+    font-size: 30px;
+  }
+  .nobg{
+    padding-top: 0%;
+  }
+}
 
 
 /*
