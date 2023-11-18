@@ -49,7 +49,7 @@
   border: #3b3efe solid 1px;
 }
 
-.row{
+.rowwhite{
   background-color: white;
 }
 
@@ -187,7 +187,7 @@ span:nth-child(5) {
   
 }
 
-.bgpink{
+.bgpurple{
   background-color: #8c87bb;
 }
 
@@ -222,9 +222,10 @@ span:nth-child(5) {
 }
 
 .has-bg-img-6{
-  background: url(../img/periwinkle.jpg) center center fixed;
+  background: url(../img/periwinkle.jpg) no-repeat center center fixed;
   background-size: cover;
-  height: 150px;
+  height: auto;
+  color:white
 }
 
 .verytall{
